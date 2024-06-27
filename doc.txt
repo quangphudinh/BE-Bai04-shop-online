@@ -1,0 +1,9 @@
+Các lệnh git:
+git init
+git status
+git add .
+git commit -m "noi dung"
+git log
+git show commit_id
+git diff : show ra những dòng vừa thêm hoặc chỉnh sửa
+gitk : show dashboard chi tiết
