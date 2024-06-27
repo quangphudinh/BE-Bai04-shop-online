@@ -13,4 +13,8 @@ git reset -- soft commit_id : chuyển trạng thái từ Repository về lại 
 git reset --mixed commit_id : chuyển từ repository về working
 
 Nhánh trong GIT :
-git checkout -b name_branch
+git branch : xem các danh sách branch
+git checkout -b name_branch : tạo một nhánh mới và chuyển sang nhánh đó
+git checkout ten_nhanh : chuyển sang nhánh khác
+git merge ten_nhanh : để merge nhánh khác vào trong nhánh hiện tại
+git branch -D tên_nhánh : xóa nhánh đó
