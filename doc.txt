@@ -18,3 +18,8 @@ git checkout -b name_branch : tạo một nhánh mới và chuyển sang nhánh 
 git checkout ten_nhanh : chuyển sang nhánh khác
 git merge ten_nhanh : để merge nhánh khác vào trong nhánh hiện tại
 git branch -D tên_nhánh : xóa nhánh đó
+
+GITHUB
+- git branch -M main : đổi tên branch thành main
+- git remote add origin URL :
+- git push -u origin main :
