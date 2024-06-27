@@ -7,3 +7,7 @@ git log
 git show commit_id
 git diff : show ra những dòng vừa thêm hoặc chỉnh sửa
 gitk : show dashboard chi tiết
+git checkout -- filename : quay lại file trước khi sửa
+git reset HEAD ten_file HOẶC git reset ten_file : đẩy file từ vùng Staging về vùng Working
+git reset -- soft commit_id : chuyển trạng thái từ Repository về lại Staging
+git reset --mixed commit_id : chuyển từ repository về working
